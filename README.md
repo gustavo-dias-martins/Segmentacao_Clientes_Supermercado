@@ -1,4 +1,4 @@
-[![author](https://img.shields.io/badge/Author-Francisco&nbsp;Bustamante-red.svg)](https://www.linkedin.com/in/flsbustamante/)
+[![author](https://img.shields.io/badge/Author-Gustavo&nbsp;Martins-red.svg)](https://www.linkedin.com/in/gustavodiasmartins/)
 [![](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 
 # Segmentação de clientes de um supermercado
@@ -12,7 +12,7 @@ Um supermercado, através de cartões de fidelidade, possui alguns dados básico
 Projeto de clusterização de uma base de dados de um supermercado utilizando as seguintes bibliotecas Python: sklearn, pandas, os, seaborn, matplotlib .
 
 <p align="center"> 
-  <a href="https://www.linkedin.com/in/flsbustamante" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  <a href="https://www.linkedin.com/in/gustavodiasmartins/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 </p>
 
 ## Objetivos
