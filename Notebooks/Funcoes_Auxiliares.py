@@ -13,6 +13,19 @@ os.environ['OMP_NUM_THREADS'] = '1'
 
 def graficos_elbow_silhouette(x, random_state = 41, intervalo_k =(2,11)):
 
+    """Gera os gráficos para os métodos Elbow e Silhouette.
+
+    Parameters
+    ----------
+    X : pandas.DataFrame
+        Dataframe com os dados.
+    random_state : int, opcional
+        Valor para fixar o estado aleatório para reprodutibilidade, por padrão 42
+    intervalo_k : tuple, opcional
+        Intervalo de valores de cluster, por padrão (2, 11)
+    """
+
+
     fig, axs = plt.subplots(nrows=1, ncols=2, figsize=(15,5), tight_layout=True)
 
     elbow = {}
@@ -43,6 +56,29 @@ def graficos_elbow_silhouette(x, random_state = 41, intervalo_k =(2,11)):
 
 
 def visualizar_clusters(dataframe, colunas, qtd_cores, centroids, mostrar_centroids = True, mostrar_pontos=False, coluna_custers = None):
+
+    """Gerar gráfico 3D com os clusters.
+
+    Parameters
+    ----------
+    dataframe : pandas.DataFrame
+        Dataframe com os dados.
+    colunas : List[str]
+        Lista com o nome das colunas (strings) a serem utilizadas.
+    quantidade_cores : int
+        Número de cores para o gráfico.
+    centroids : np.ndarray
+        Array com os centroides.
+    mostrar_centroids : bool, opcional
+        Se o gráfico irá mostrar os centroides ou não, por padrão True
+    mostrar_pontos : bool, opcional
+        Se o gráfico irá mostrar os pontos ou não, por padrão False
+    coluna_clusters : List[int], opcional
+        Coluna com os números dos clusters para colorir os pontos
+        (caso mostrar_pontos seja True), por padrão None
+    """
+
+
 
     fig = plt.figure()
 
